@@ -3,7 +3,7 @@ version = 0.1
 [default.deploy]
 [default.deploy.parameters]
 stack_name = "microappdemo"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1g7m8sthc2xt6"
+s3_bucket = "aws-sam-project"
 s3_prefix = "microappdemo"
 region = "us-east-1"
 confirm_changeset = true
@@ -14,7 +14,7 @@ image_repositories = ["microappdemoFunction=348550191801.dkr.ecr.us-east-1.amazo
 [DEV.deploy]
 [DEV.deploy.parameters]
 stack_name = "microappdemo"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1g7m8sthc2xt6"
+s3_bucket = "aws-sam-project"
 s3_prefix = "microappdemo"
 region = "us-east-1"
 confirm_changeset = true
