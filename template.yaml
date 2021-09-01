@@ -14,6 +14,11 @@ Resources:
     Properties:
       PackageType: Image
       MemorySize: 1024
+      VpcConfig:
+        SecurityGroupIds: 
+          - sg-7165214f
+        SubnetIds: 
+          - subnet-d0cc7df1
       Role: !ImportValue LambdaExecutionRoleArn
       Events:
         microappdemo:
