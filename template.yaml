@@ -14,6 +14,7 @@ Resources:
     Properties:
       PackageType: Image
       MemorySize: 1024
+      Role: !ImportValue LambdaExecutionRole
       Events:
         microappdemo:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
